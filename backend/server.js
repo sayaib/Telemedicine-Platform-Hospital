@@ -17,7 +17,7 @@ connectCloudinary();
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5174", // Or '*' for any origin in dev
+    origin: "*", // Or '*' for any origin in dev
     credentials: true, // If you're sending cookies or auth headers
   })
 );
